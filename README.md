@@ -14,7 +14,7 @@ Dataset_Modelos_Computacionais_clean.csv e projeto2.csv.
 
 Sobre o Projeto
 # Objetivo geral
-Investigar como variáveis meteorológicas (temperatura, precipitação, umidade relativa e velocidade do vento) influenciam a incidência de cinco doenças vetoriais (Dengue, Zika, Chikungunya, Leishmaniose visceral e Leishmaniose tegumentar) no estado de São Paulo ao longo da última década.
+Investigar se variáveis meteorológicas (temperatura, precipitação, umidade relativa e velocidade do vento) influenciam a incidência de cinco doenças vetoriais (Dengue, Zika, Chikungunya, Leishmaniose visceral e Leishmaniose tegumentar) no estado de São Paulo ao longo da última década.
 
 # Objetivos específicos e análises realizadas
 - Identificar o peso relativo das variáveis ambientais sobre a incidência de cada doença.
@@ -28,7 +28,7 @@ Análises realizadas: PCA, K-means (k = 2 e 3) e DBSCAN (testes com diferentes v
 - SINAN (Sistema de Informação de Agravos de Notificação): casos mensais de Dengue, Zika, Chikungunya e Leishmanioses.
 - INMET (Instituto Nacional de Meteorologia): dados mensais de temperatura mínima, média e máxima, precipitação, umidade relativa e velocidade do vento.
 
-# Resultados
+# Resultados e Discussão
 O clima (considerando defasagens de 1 a 3 meses) explica parcialmente a dinâmica das arboviroses e permite prever meses epidêmicos com boa precisão. Para as leishmanioses, o clima apresenta baixo poder explanatório e preditivo, sugerindo a predominância de outros fatores ambientais, ecológicos ou socioeconômicos. As doenças se organizam em grupos definidos pela resposta conjunta às variáveis ambientais: arboviroses formam um grupo próprio, enquanto as leishmanioses apresentam um padrão distinto, com separação interna entre leishmaniose tegumentar e leishmaniose visceral.
 
 # Arquivos relacionados no workspace
